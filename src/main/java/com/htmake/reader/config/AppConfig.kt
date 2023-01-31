@@ -10,10 +10,10 @@ class AppConfig {
     var showUI = false // 是否显示UI
     var debug = false  // 是否调试web
     var packaged = false  // 是否打包为app
-    var secure = false    // 是否启用登录鉴权
+    var secure = true    // 是否启用登录鉴权
     var inviteCode = "123"   // 注册邀请码
-    var secureKey = ""    // 管理密码
-    var cacheChapterContent = false // 是否缓存章节内容
+    var secureKey = "123456"    // 管理密码
+    var cacheChapterContent = true // 是否缓存章节内容
     var userLimit = 50    // 用户上限
     var userBookLimit = 6666    // 用户书籍上限
     var debugLog = false  // 调试日志
