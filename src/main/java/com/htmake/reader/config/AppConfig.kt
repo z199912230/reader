@@ -9,12 +9,12 @@ class AppConfig {
     lateinit var storagePath: String // 存储路径
     var showUI = false // 是否显示UI
     var debug = false  // 是否调试web
-    var packaged = false  // 是否打包为app
+    var packaged = true  // 是否打包为app
     var secure = true    // 是否启用登录鉴权
     var inviteCode = "123"   // 注册邀请码
     var secureKey = "12345678"    // 管理密码
     var cacheChapterContent = true // 是否缓存章节内容
-    var userLimit = 3// 用户上限
+    var userLimit = 10// 用户上限
     var userBookLimit = 6666    // 用户书籍上限
     var debugLog = false // 调试日志
     var autoClearInactiveUser = 0  // 自动清理不活跃用户
